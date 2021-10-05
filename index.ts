@@ -15,3 +15,15 @@ const person: {
 }
 
 const book: [string, number, boolean] = ['business', 1500, false];
+
+enum Coffeesize {
+  SHORT,
+  TALL,
+  GRANDE,
+  VENTI
+}
+
+const coffee = {
+  hot: true,
+  size: Coffeesize.TALL
+}
