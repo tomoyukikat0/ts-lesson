@@ -27,3 +27,6 @@ const coffee = {
   hot: true,
   size: Coffeesize.TALL
 }
+
+let unionType: number | string = 10;
+let unionTypes: (number | string)[] = [21, "hello"]
