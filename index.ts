@@ -13,3 +13,5 @@ const person: {
   name: 'Jack',
   age: 21
 }
+
+const book: [string, number, boolean] = ['business', 1500, false];
