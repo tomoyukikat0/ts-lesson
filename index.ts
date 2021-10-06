@@ -30,3 +30,5 @@ const coffee = {
 
 let unionType: number | string = 10;
 let unionTypes: (number | string)[] = [21, "hello"]
+
+const apple: 'apple' = 'apple'
