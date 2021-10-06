@@ -31,11 +31,13 @@ const coffee = {
 let unionType: number | string = 10;
 let unionTypes: (number | string)[] = [21, "hello"]
 
+
+type ClothSize = 'small' | 'medium' | 'large'
 const apple: 'apple' = 'apple'
-let clothSize: 'small' | 'medium' | 'large' = 'large';
+let clothSize: ClothSize = 'large';
 const cloth: {
   color: string;
-  size: 'small' | 'medium' | 'large'
+  size: ClothSize
 } = {
   color: 'white',
   size: 'medium'
