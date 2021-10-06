@@ -42,3 +42,8 @@ const cloth: {
   color: 'white',
   size: 'medium'
 }
+
+// 関数には型をつけておいたほうが良い
+function add(num1: number, num2: number): number {
+  return num1 + num2
+}
