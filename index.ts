@@ -47,3 +47,21 @@ const cloth: {
 function add(num1: number, num2: number): number {
   return num1 + num2
 }
+
+function sayHello(): void {
+  console.log('Hello!');
+}
+
+const doubleNumber: (num: number) => number = num => num * 2
+
+interface Human {
+  name: string,
+  age: number
+}
+
+const human: Human = {
+  name: 'Quill',
+  age: 38
+}
+
+let developer: Human;
