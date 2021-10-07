@@ -48,3 +48,23 @@ function add(num1: number, num2: number): number {
   return num1 + num2
 }
 
+function sayHello(): void {
+  console.log('Hello!');
+}
+
+const doubleNumber: (num: number) => number = num => num * 2
+
+interface Human {
+  name: string,
+  age: number,
+  greeting(message: string): void;
+}
+
+const human: Human = {
+  name: 'Quill',
+  age: 38,
+  greeting(message: string) {
+    console.log(message);
+  }
+}
+
